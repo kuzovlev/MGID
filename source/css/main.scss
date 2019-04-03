@@ -77,6 +77,9 @@ header {
             font-size: 15px;
             cursor: revert;
           }
+          .button{
+            display: none;
+          }
         }
       }
     }
@@ -253,7 +256,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 780px) {
   .navigation {
     margin-left: unset !important;
   }
@@ -277,6 +280,12 @@ footer {
     p {
       width: unset !important;
     }
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .slider-content {
+    left: 27% !important;
   }
 }
 
@@ -315,9 +324,9 @@ footer {
     }
   }
 }
-@media screen and (max-width: 4200px){
+@media screen and (max-width: 420px){
   .slider-content {
-    left: -6%!important;
+    left: 0!important;
     .slide-text {
       font-size: 30px !important;
       line-height: 45px !important;
